@@ -1,0 +1,1081 @@
+/* fillon css per pjesen e home dhe navbar */
+
+nav {
+    text-align: center;
+    word-spacing: 30px;
+    padding: 30px;
+    background-color: #f0f0f0 ; 
+    font-family: Helvetica;
+    
+ }
+ 
+ nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: larger;
+ }
+ 
+ 
+ 
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ .ngjyra333{
+    color:rgb(190, 170, 20)
+ }
+ 
+ .logo img {
+     width: 100px; 
+ }
+ 
+
+
+ nav ul {
+     list-style-type: none;
+     display: flex; 
+ }
+ 
+ nav ul li {
+     margin-right: 300px;
+ }
+ 
+ 
+ .logo {
+     position: relative;
+ }
+ 
+ .logo h1 {
+     color: #fff; 
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ 
+ nav {
+     flex: 1; 
+ }
+         .additional-column {
+             display: flex;
+             justify-content: center;
+             
+          }
+                     .column-container {
+             display: flex;
+             justify-content: center;
+             margin-top: 50px; 
+          }
+                         .column {
+             margin: 10px 10px; 
+             max-height: 600px; 
+             text-align: center; 
+             overflow: hidden; 
+          }
+                             .column img {
+             width: 250px; 
+             height: 300px; 
+             object-fit: cover;
+            
+                
+          }
+                                 .first-column {
+             width: 1000px; 
+             position: relative; 
+             
+          }
+                                     .first-column .buttons {
+             position: absolute; 
+             top: 200px; 
+             left: 50%; 
+             transform: translateX(-50%); 
+             
+          }
+                                         .first-column .buttons button {
+             margin: 5px; 
+             padding: 10px 20px; 
+             background-color: white; 
+             color: black; 
+             border: 2px solid white; 
+          }
+                                             .other-columns {
+             flex: 1; 
+             max-width: 355px; 
+          }
+ 
+ 
+ 
+ 
+ img[src='images/biscuite.jpg'] {
+    width: 1000px; 
+    height: 600px; 
+ }
+ 
+ 
+ /* Stilizimi i linkjeve */
+ a {
+    text-decoration: none; 
+    color: #b5bc8a; 
+    transition: color 0.3s ease;
+   font-family: Helvetica;
+   font-size: 13px;
+ }
+ 
+ 
+ /* Stilizime për ekranet e vogla */
+ @media only screen and (max-width: 375px) {
+	 
+    img[src='images/biscuite.jpg'] {
+   width: 300px;
+   height: 300px;
+}
+    .first-column {
+   width: 900px;
+   position: relative;
+} }
+    
+    
+/* Stilizime për ekranet e vogla (mobil) */
+@media only screen and (max-width: 600px) {
+.column-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.additional-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+img[src='images/biscuite.jpg'] {
+   width: 400px;
+   height: 400px;
+}
+}
+
+/* Stilizime për ekranet e mesme (tablet) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    img[src='biscuite.jpg'] {
+    width: 900px;
+    height: 600px;
+}
+.column-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.column {
+    margin: 10px 10px;
+    max-height: 900px;
+    text-align: center;
+    overflow: hidden;
+}
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+img[src='images/biscuite.jpg'] {
+   width: 700px;
+   height: 500px;
+}
+}
+
+/* mbaron css per pjesen e home dhe navbar */
+
+
+
+
+/* fillon css per oferten */
+
+.card .text-bg-dark{
+    width:100%;
+    
+}
+.oferta{
+    margin-top:40px;
+    margin-left:600px;
+    margin-right:5px;
+
+    
+}
+
+
+.oferta1{
+    border:2px solid white;
+}
+
+.butoninr1{
+    color:#b7970a;
+    box-shadow: 0 0 10px #b7970a;
+ }
+
+.butoni1{
+    padding:15px 30px;
+}
+.titulli{
+    color:rgb(17, 16, 16);
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+.oferta{
+    text-align: center;
+}
+.card-text{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.viza1{
+
+    border: 2px  solid rgb(161, 105, 2);
+    border-radius: 5px;
+    text-align: center;
+    margin-left:180px;
+    width:220px;
+
+}
+
+/* fund css per oferten */
+
+/* FILLON CSS PER PRODUCTS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    height: 200vh;
+    background-color: #FFFFFF;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #c8af56;
+    font-family: Monotype corsiva;
+	margin-bottom: 5px;
+}
+
+.paragrafi1 {
+    font-size: 26px;
+    color: #181616;
+	font-family: Arial;
+	margin-bottom: 20px;
+    font-weight:600;
+}
+
+.paragrafi2 { 
+font-family: Monotype corsiva;
+ font-size: 23px;
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    flex: 0 0 calc(25% - 20px); 
+    margin: 10px;
+    text-align: center;
+}
+
+.item img {
+    width: 200px; 
+    height: 200px; 
+}
+
+.item p {
+    margin: 0;
+}
+
+/* PERFUNDON CSS PER PRODUCTS */
+
+/* fillon css per reklamen */
+
+.reklama{
+
+    margin-top:50px;
+    margin-left:20px;
+    margin-right:59%;
+    color:black;
+    
+
+}
+
+
+.butoninr1{
+    background-color: rgb(230, 178, 115);
+    color:white;   
+}
+.reklama1{
+    border:2px solid white;
+}
+
+.butoni2{
+    padding:10px 70px;
+    background-color: rgb(219, 152, 70);
+    box-shadow: 0 0 10px rgb(219, 152, 70);
+}
+
+
+.viza2{
+
+    border: 2px  solid rgb(161, 105, 2);
+    border-radius: 5px;
+    
+    margin-left:0px;
+    width:220px;
+    
+}
+
+.butoni2{
+    margin-left:180%;
+    margin-top:-180px;
+
+}
+
+
+.numer2{
+    margin-left:0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* perfundon css per reklamen */
+
+
+
+
+
+
+
+/* fillon css per footer  */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.footer {
+    background-color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+.footer-icons {
+    display: inline-block;
+    margin: 0 auto;
+}
+.footer-icons a {
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #b7970a;
+}
+.footer-icons a:hover {
+    color: #e6ecc4;
+}
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.footer-icons a{
+    border: 2px solid  #b7970a;
+    padding:5px 5px;
+}
+/* perfundon  css per footer  */
+
+
+
+
+
+
+/* responsiviteti */
+
+                                               /* RESPONSIVITETI */
+/* max=> deri ne ato pixel qe shkruan width=, max dhe poshte ka ate stilizim  */
+
+@media screen and (max-width: 1024px){
+    .oferta {
+        text-align: center;
+        margin-left: 52%;
+        margin-top: 5%;
+    }
+    .viza1 {
+    
+        text-align: center;
+        margin-left: 15%;
+        
+    }
+    .butoni1 {
+        padding: 7px 10px;
+        margin-top:-15px;
+    }
+    .reklama {
+        margin-top: 2%;
+    }
+    .kujdes {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* margin-right: -34%; */
+        margin-top: -2%;
+    }
+    
+     .butoni2 {
+     margin-left: 180%;
+     margin-top: -70%;
+     padding: 7px 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .oferta {
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+
+ .fotojahijezim{
+    filter: brightness(0.7);
+}
+.card-text{
+    color:white;
+}
+.card-title{
+    color:white;
+}
+
+
+    
+    .reklama {
+        margin-top: 0px;
+        margin-left: 1px;
+        margin-right: 2%;
+        color: white;
+    }
+    
+    .kujdes {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+         margin-top: -10px;
+        }
+ 
+     
+    .butoni1 {
+     padding: 6px 7px;
+     margin-top: -25px;   
+ 
+    }
+
+    .butoni2 {
+        margin-left: 25%;
+        margin-top: -19px;
+        padding: 4px 4px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 640px){
+
+
+    .fotojahijezim{
+        filter: brightness(0.7);
+    }
+    .card-text{
+        color:white;
+    }
+    .card-title{
+        color:white;
+    }
+
+
+    .butoni1 {
+        padding: 2px 2px;
+        margin-top: -9%;
+    }
+    
+    .kujdes {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: -10px;
+        font-size: 13px;
+        
+     
+    }
+     .butoni2 {
+     margin-left: 20%;
+     margin-top: -16px;
+     padding: 4px 4px;
+    }
+ 
+    .viza2 {
+      margin-top:-10px;  
+      } 
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 550px) {
+
+
+    .fotojahijezim{
+        filter: brightness(0.7);
+    }
+    .card-text{
+        color:white;
+    }
+    .card-title{
+        color:white;
+    }
+
+
+    .oferta {
+        margin-top: -3px;
+        margin-left: 10px;
+        margin-right: 2px;
+    }
+    
+    .titulli {
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 13px;
+    }
+    .viza1 {
+        border: 2px solid rgb(161, 105, 2);
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 130px;
+        width: 220px;
+    }
+    .butoni1 {
+        padding: 2px 2px;
+        margin-top: -50px;
+    }
+    .card-title {
+        margin-bottom: var(--bs-card-title-spacer-y);
+        color: var(--bs-card-title-color);
+        font-size: 13px;
+        color: white;
+    }
+    .reklama {
+        margin-top: -10px;
+        margin-left: 1px;
+        margin-right: 2%;
+        color: white;
+        font-size: 10px;
+    }
+    .butoni2 {
+        margin-left: 20%;
+        margin-top: -10px;
+        padding: 1px 1px;
+
+    }
+    .kujdes {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: -15px;
+        font-size: 10px;
+    }
+.viza2{
+    margin-top: -6px;
+}
+
+   
+
+}
+
+ 
+
+
+
+/* PER MOBILE */
+
+@media screen and (max-width: 440px) {
+
+
+    .fotojahijezim{
+        filter: brightness(0.7);
+    }
+    .card-text{
+        color:white;
+    }
+    .card-title{
+        color:white;
+    }
+
+
+    .card-title {
+       
+        font-size: 10px;
+        margin-top: -6px
+    }
+
+    .viza1 {
+        border: 1.5px solid rgb(161, 105, 2);
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 20%;
+        width: 150px;
+        margin-top:-6px;
+    }
+    .titulli {
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 10px;
+        margin-top: -10px;
+    }
+    .kujdes {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: -15px;
+        padding: 0px 0px;
+        font-size: 8px
+    }
+    .butoni2 {
+        margin-left: 20%;
+        margin-top: -5%;
+        
+    }
+    .footer-icons a {
+        border: 2px solid #b7970a;
+        padding: 1px 1px;
+    }
+
+}
+/*  NIS CSS PER ABOUT */
+
+#about{
+    text-align: center;
+    background-color:#dfdbca;;
+}
+.bodyabout{
+    background-color:  rgb(255, 255, 255);
+}
+.display-5 {
+    background-color: #dfdbca; 
+  }
+  .titulliabout{
+    color:#635529;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  .shkrimititulli{
+    color:#635529;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 5%;
+  }
+  .kolonapare{
+    background-color: #dfdbca;
+    color:#635529;
+    
+  }
+  .kolonadyte{
+    background-color: #dfdbca;
+    color:#635529;
+
+
+
+  }
+
+  /*Nis responsiviteti per about */
+
+
+@media screen and ( max-width:320px){
+    iframe {
+        border: 0;
+        margin-top: -22%;}
+
+        .titulliabout {
+            font-size: 40px;}
+ 
+}
+    
+
+
+  /* Perfundon responsiviteti per about */
+  /* PERFUNDON CSS PER ABOUT */
+
+
+
+
+  /* nis css per contact page */
+
+  .titullicontactpage{
+    color:#635529;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+
+    
+  }
+  .contact { 
+        margin: 90px -5px 10px ;
+        padding: 40px;
+        color:#635529;
+        background-color: #dfdbca;
+    }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+	
+}
+
+nav {
+   text-align: center;
+   word-spacing: 30px;
+   padding: 30px;
+   background-color: #f0f0f0;  
+   font-family: Helvetica;
+  
+   
+}
+
+nav a {
+   color: #000000;
+   text-decoration: none;
+   font-size: larger;
+  
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.logo img {
+    width: 100px; 
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex; 
+}
+
+nav ul li {
+    margin-right: 300px;
+	
+}
+
+
+.logo {
+    position: relative;
+}
+
+.logo h1 {
+    color: #fff; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.map_kont iframe {
+    width: 100%;
+    height: 450px;
+	padding: 20px;
+}
+.rounded {
+border-radius: .55rem !important; 
+}
+
+
+.contact-form {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #dfdcd1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+	
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+
+  /*PERFUNDON CSS PER CONTACT PAGE */
+
+
+
+
+
+
+
+/* NIS CSS PER BLOG */
+.bllokuparengjyre{
+    background-color: #dfdbca;
+  
+    
+}
+.titulliblog{
+    color:#635529;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.poshtetitullitblog{
+    color:#635529;;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.produkteblog{
+    /* color: #d9d3bd; */
+    color: #a49359;
+    font-family: "Courgette", cursive;
+}
+.paragrafifunditblog{
+    background-color: #dfdbca; 
+    color:#322806;
+}
+.card-body{
+    background-color: #e0dccc; 
+    
+
+}
+.tekstikartes{
+    color: #443c1c; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+.carousel-inner,
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* PERFUNDON CSS PER BLOG */
+
+/* fillon css per shop page */
+.shop  { 
+   
+       
+        margin: 90px -5px 10px ;
+        padding: 40px;
+        background-color:#dfdbca;
+    
+    }
+    .paragrafishoppage{
+        color:#635529;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:18px;
+    }
+    .titullishoppage{
+        color:#635529;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+      .item {
+                border: 1px solid #dfa62c ; 
+                padding: 10px; 
+                margin-bottom: 20px; 
+                background-color:#fffcf7 ;
+            }
+    .par2{
+        margin-top:15px;
+        font-size:18px;
+        color:#635529;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+    }
+    
+    .con{
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 90px 20px 7px ;
+        padding: 40px;
+        background-color: #fffcf7 ;
+    }
+    .name{ 
+    font-weight:bold;
+    color: #554302;
+    }
+    /* perundon css per shop page */
+
+
+    /* fillon css per events page */
+
+.events{
+	margin-top:100px;
+	border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 90px -5px 10px ;
+    padding: 40px;
+	background-color: #dfdbca;
+	
+}
+ .h1{
+ color:#635529;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .pargrafevents{
+    color:rgb(86, 78, 35);
+ }
+ 
+ .eventcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  text-align: center;
+  margin-right:10px;
+  margin-top:40px;
+  
+}
+
+.image img {
+  max-width: 300px;
+  height: 400px;
+}
+
+.caption {
+  margin: 20px 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background-color: #fff7e1;
+  font-family:Times New Roman;
+  font-size:15px;
+  text-align: center;
+}
+
+.eventcontainer {
+  display: flex;
+}
+
+.text {
+ background-color: #fff7e1;
+  font-family:Times New Roman;
+  font-size:15px;
+  text-align: center;
+  padding: 20px;
+  flex: 1; 
+}
+
+.image1 {
+  flex: 1; 
+}
+
+.image1 img {
+  max-width: 400px; 
+  height: 400px;
+  margin-top:30px;
+   
+} 
+
+
+  /* perfundon css per events page */
