@@ -14,11 +14,4 @@ Welcome to **Pastel Heaven**, a dreamy and serene web experience designed to bri
 - **JavaScript**: For interactive features and dynamic elements.
 - **Bootstrap**: For responsiveness and consistent grid layout.
 
-## Getting Started 🚀
-
-To run **Pastel Heaven** on your local machine:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/pastel-heaven.git
 
